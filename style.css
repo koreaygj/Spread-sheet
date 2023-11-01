@@ -7,3 +7,25 @@
   border: none;
   border-radius: 10px;
 }
+
+.cell-row {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  height: 40px;
+  border: 1px solid;
+  border-color: lightgrey;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.cell.header {
+  text-align: center;
+  background-color: #ddd;
+}
+
+.cell.header.active {
+  background-color: lightskyblue;
+}
